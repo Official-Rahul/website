@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(228, 220, 222);
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3.2em;
+}
+h2 {
+  font-size: 2em;
+}
+
+header {
+  background-color: white;
+}
+
+.page {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header img {
+  height: 4rem;
+}
+
+nav {
+  padding: 20px 20px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+li {
+  list-style: none;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header-image {
+  height: 300px;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+main {
+  margin: 20px 0;
+}
+
+.items {
+  height: 180px;
+}
+
+.item {
+  float: left;
+  width: 33%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.item.left {
+  float: left;
+  margin-right: 0.5%;
+}
+
+.item.right {
+  float: right;
+  margin-left: 0.5%;
+}
+
+.item.center {
+  margin: 0 auto;
+}
+
+.item h2 {
+  margin-bottom: 20px;
+}
+
+article {
+  background-color: white;
+  height: 400px;
+}
+
+.post {
+  float: left;
+  width: 70%;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.post p {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.navigation {
+  margin-top: 10px;
+  width: 30%;
+  float: right;
+}
+
+.navigation h2 {
+  padding: 20px;
+}
+
+.navigation .navbar {
+  color: whitesmoke;
+  background-color: gray;
+  padding: 20px;
+  margin: 20px;
+}
+
+.navigation li {
+  margin-top: 20px;
+}
+
+.img {
+  width: 24.9%;
+}
+
+.img1 {
+  background-color: blue;
+  color: whitesmoke;
+  float: left;
+  height: 100%;
+}
+.img2 {
+  background-color: green;
+  color: whitesmoke;
+  float: left;
+  height: 100%;
+}
+.img3 {
+  background-color: orange;
+  color: whitesmoke;
+  float: left;
+  height: 100%;
+}
+.img4 {
+  background-color: red;
+  color: whitesmoke;
+  float: left;
+  height: 100%;
+}
+
+.gallery {
+  height: 200px;
+}
+
+.gallery-head {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: whitesmoke;
+  height: 50px;
+}
+
+footer .copyright {
+  float: left;
+  margin: 10px;
+}
+
+footer .team {
+  float: right;
+  margin: 10px;
+}
